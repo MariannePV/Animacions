@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator">
+
+    <!-- Moviment de la pilota per les quatre cantonades de la pantalla -->
+    <translate
+        android:startOffset="500"
+        android:duration="1500"
+        android:fromXDelta="0%p"
+        android:toXDelta="-40%p" />
+
+    <translate
+        android:startOffset="2000"
+        android:duration="1500"
+        android:fromYDelta="0%p"
+        android:toYDelta="90%p" />
+
+    <translate
+        android:startOffset="3500"
+        android:duration="1500"
+        android:fromXDelta="0%p"
+        android:toXDelta="80%p" />
+
+    <translate
+        android:startOffset="5000"
+        android:duration="1500"
+        android:fromYDelta="0%p"
+        android:toYDelta="-90%p" />
+
+    <translate
+        android:startOffset="6500"
+        android:duration="1500"
+        android:fromXDelta="0%p"
+        android:toXDelta="-40%p" />
+</set>
